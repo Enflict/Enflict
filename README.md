@@ -7,8 +7,8 @@ async function legend() {
   const chalk = require('chalk');
 
   let doing = ['Sleeping', 'Eating', 'Coding', 'Doing Your Mom'];
-  let langs = ['JavaScript', 'NodeJS', 'ExpressJS', 'HTML5/CSS', 'Java', 'MySQL', 'Python', 'Markdown'];
-  let tools = ['Brave Browser', 'Windows', 'Linux', 'Discord', 'GitHub'];
+  let langs = ['JavaScript', 'NodeJS'];
+  let tools = ['Visual Studio Code', 'Windows', 'Discord', 'GitHub'];
 
   let practice = await Enflict.randomize(doing, langs, tools);
 
